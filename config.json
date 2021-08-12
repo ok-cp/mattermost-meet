@@ -9,7 +9,7 @@
 	"baseUrl": "https://mattermost.accordions.co.kr:31333/plugins/jira",
 	"links": {
 		"self": "https://mattermost.accordions.co.kr:31333/plugins/jira/instance/aHR0cHM6Ly9tYW50ZWNoLmppcmEuY29t/ac/atlassian-connect.json",
-		"homepage": "https://mattermost.accordions.co.kr"
+		"homepage": "https://mattermost.accordions.co.kr:31333"
 	},
 	"authentication": {
 		"type": "jwt"
