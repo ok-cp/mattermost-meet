@@ -8,7 +8,7 @@
 	},
 	"baseUrl": "https://mattermost.accordions.co.kr/plugins/jira",
 	"links": {
-		"self": "https://raw.githubusercontent.com/ok-cp/mattermost-meet/main/acc-config.json",
+		"self": "https://mattermost.accordions.co.kr/plugins/jira/instance/aHR0cHM6Ly9tYW50ZWNoLmppcmEuY29t/ac/atlassian-connect.json",
 		"homepage": "https://mattermost.accordions.co.kr"
 	},
 	"authentication": {
