@@ -8,7 +8,7 @@
 	},
 	"baseUrl": "https://mattermost.accordions.co.kr/plugins/jira",
 	"links": {
-		"self": "https://raw.githubusercontent.com/ok-cp/mattermost-meet/main/config.json",
+		"self": "",
 		"homepage": "https://mattermost.accordions.co.kr:31333"
 	},
 	"authentication": {
