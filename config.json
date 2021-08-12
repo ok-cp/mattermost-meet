@@ -1,0 +1,37 @@
+{
+	"key": "mattermost_ttps_mattermost_accordions_co_kr",
+	"name": "Mattermost Plugin (https://mattermost.accordions.co.kr)",
+	"description": "Integrates Jira with Mattermost for in-place interactions and notifications",
+	"vendor": {
+		"name": "Mattermost",
+		"url": "https://github.com/mattermost"
+	},
+	"baseUrl": "https://mattermost.accordions.co.kr:31333/plugins/jira",
+	"links": {
+		"self": "https://mattermost.accordions.co.kr:31333/plugins/jira/instance/aHR0cHM6Ly9tYW50ZWNoLmppcmEuY29t/ac/atlassian-connect.json",
+		"homepage": "https://www.mattermost.com"
+	},
+	"authentication": {
+		"type": "jwt"
+	},
+	"apiMigrations": {
+		"gdpr": true
+	},
+	"lifecycle": {
+		"installed": "/ac/installed",
+		"uninstalled": "/ac/uninstalled"
+	},
+	"scopes": [ "READ", "WRITE", "ACT_AS_USER" ],
+	"modules": {
+		"generalPages": [
+			{
+				"url": "/instance/aHR0cHM6Ly9tYW50ZWNoLmppcmEuY29t/ac/user_redirect.html",
+				"name": {
+					"value": "User mapping and configuration page"
+				},
+				"key": "user-redirect",
+				"location": "none"
+			}
+		]
+	}
+}
